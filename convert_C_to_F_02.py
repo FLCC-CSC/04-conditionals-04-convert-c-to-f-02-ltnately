@@ -1,28 +1,28 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
-
-
-
-# 1. Make sure you fill out the comments above
-# 2. Write your code in the proper spot
-# 3. Be sure to answer the Reflection Questions and Attestation below
-# 4. The Sample Output has been included in this code for your convenience
-
-
+# NAME: Michael Glazier
+# DATE: 09/30/2025
+# BRIEF DESCRIPTION:  convert c to f with cases
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+def main():
 
+  menu_choice = int(input(f"===== Temperature Converter =====\n\n  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius\n\nPlease choose from the above menu: "))
+  orginal_temperature = float(input("Enter a temperature to convert: "))
 
+  if menu_choice == 1:
+    result_temperature = ((orginal_temperature*(9/5))+32)
+    print(f"{orginal_temperature} degrees Celsius is {result_temperature} degrees Fahrenheit.")
 
+  elif menu_choice == 2:
+    result_temperature = ((orginal_temperature-32)*(5/9))
+    print(f"{orginal_temperature} degrees Fahrenheit is {result_temperature} degrees Celsius.")
+  
+  else:
+    print("invalid entry")
 
-
-
-
-
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -93,7 +93,7 @@ Enter a temperature to convert: -40
 
 1. What is one lesson you learned in this lab?
 
-
+how to format using print f with multiple new lines and spacing
 
 
 
