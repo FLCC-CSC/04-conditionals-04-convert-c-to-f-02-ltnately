@@ -8,7 +8,8 @@
 
 def main():
 
-  menu_choice = int(input(f"===== Temperature Converter =====\n\n  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius\n\nPlease choose from the above menu: "))
+  print(f"===== Temperature Converter =====\n\n  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius\n")
+  menu_choice = int(input("Please choose from the above menu: "))
   orginal_temperature = float(input("Enter a temperature to convert: "))
   print()
 
