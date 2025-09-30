@@ -10,6 +10,7 @@ def main():
 
   menu_choice = int(input(f"===== Temperature Converter =====\n\n  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius\n\nPlease choose from the above menu: "))
   orginal_temperature = float(input("Enter a temperature to convert: "))
+  print()
 
   if menu_choice == 1:
     result_temperature = ((orginal_temperature*(9/5))+32)
